@@ -1,0 +1,146 @@
+# Translation of Dyad in Dutch
+# This file is distributed under the same license as the Dyad package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-11 15:49:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Dyad\n"
+
+#: template-parts/content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat wij niet kunnen vinden wat jij zoekt. Wellicht helpt de zoekfunctie."
+
+#: template-parts/content-page.php:34 template-parts/content-single.php:41
+#: template-parts/content.php:32
+msgid "Pages:"
+msgstr "Pagina&#39;s:"
+
+#. translators: %s: Name of current post
+#: template-parts/content.php:25
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees verder %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Start hier</a>."
+
+#: template-parts/content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Helaas, er waren geen overeenkomsten met jouw zoekterm. Probeer het opnieuw met enkele andere zoekwoorden."
+
+#: single.php:18
+msgid "Previous Post"
+msgstr "Vorige bericht"
+
+#: single.php:19
+msgid "Next Post"
+msgstr "Volgende bericht"
+
+#: template-parts/content-featured-post.php:32
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: inc/template-tags.php:33 template-parts/content-page.php:27
+msgid "Edit"
+msgstr "Bewerken"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:47
+msgid ", "
+msgstr ", "
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Naar de inhoud springen"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/template-tags.php:15
+msgid "Posted by"
+msgstr "Geplaatst door"
+
+#: functions.php:41
+msgid "Social Links Menu"
+msgstr "Socialelinksmenu"
+
+#: functions.php:96
+msgid "Read More"
+msgstr "Lees Meer"
+
+#: functions.php:110
+msgid "Footer"
+msgstr "Voettekst"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:183
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Noto Serif, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:189
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: footer.php:44
+msgid "Proudly powered by %s"
+msgstr "Ondersteund door %s"
+
+#: footer.php:46
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s door %2$s."
+
+#: functions.php:40
+msgid "Primary Menu"
+msgstr "Hoofdmenu"
+
+#: comments.php:46 comments.php:62
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: comments.php:47 comments.php:63
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: footer.php:44
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Het lijkt erop dat niets werd gevonden op deze locatie. Probeer dan misschien een van de links hieronder of een zoekopdracht?"
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "Meest gebruikte categorie&#235;n"
+
+#: comments.php:37
+msgid "Add yours"
+msgstr "Voeg uw reactie toe"
+
+#: comments.php:43 comments.php:59
+msgid "Comment navigation"
+msgstr "Reactienavigatie"

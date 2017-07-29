@@ -1,0 +1,156 @@
+# Translation of Dyad in Japanese
+# This file is distributed under the same license as the Dyad package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-11 15:49:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Dyad\n"
+
+#: template-parts/content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-page.php:34 template-parts/content-single.php:41
+#: template-parts/content.php:32
+msgid "Pages:"
+msgstr "ページ:"
+
+#. translators: %s: Name of current post
+#: template-parts/content.php:25
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s の続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: template-parts/content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: single.php:18
+msgid "Previous Post"
+msgstr "過去の投稿へ"
+
+#: single.php:19
+msgid "Next Post"
+msgstr "次の投稿へ"
+
+#: template-parts/content-featured-post.php:32
+msgid "Featured"
+msgstr "注目"
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした。"
+
+#: inc/template-tags.php:33 template-parts/content-page.php:27
+msgid "Edit"
+msgstr "編集"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:47
+msgid ", "
+msgstr ", "
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
+
+#: header.php:41
+msgid "Menu"
+msgstr "メニュー"
+
+#: inc/template-tags.php:15
+msgid "Posted by"
+msgstr "投稿者:"
+
+#: functions.php:41
+msgid "Social Links Menu"
+msgstr "﻿ソーシャルリンクメニュー"
+
+#: functions.php:96
+msgid "Read More"
+msgstr "続きを読む"
+
+#: functions.php:110
+msgid "Footer"
+msgstr "フッター"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:183
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Noto Serif, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:189
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: footer.php:44
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: footer.php:46
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: functions.php:40
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: comments.php:46 comments.php:62
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:47 comments.php:63
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: footer.php:44
+msgid "http://wordpress.org/"
+msgstr "http://ja.wordpress.org/"
+
+#: 404.php:15
+msgid "Oops! That page can't be found."
+msgstr "お探しのページが見つかりません。"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "よく使われているカテゴリー"
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s件のコメント"
+
+#: comments.php:37
+msgid "Add yours"
+msgstr "追加"
+
+#: comments.php:43 comments.php:59
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"

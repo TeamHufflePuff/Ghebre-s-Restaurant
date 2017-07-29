@@ -1,0 +1,146 @@
+# Translation of Dyad in Russian
+# This file is distributed under the same license as the Dyad package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-21 15:08:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Dyad\n"
+
+#: template-parts/content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: template-parts/content-page.php:34 template-parts/content-single.php:41
+#: template-parts/content.php:32
+msgid "Pages:"
+msgstr "Страницы:"
+
+#. translators: %s: Name of current post
+#: template-parts/content.php:25
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: template-parts/content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: single.php:18
+msgid "Previous Post"
+msgstr "Предыдущая запись"
+
+#: single.php:19
+msgid "Next Post"
+msgstr "Следующая запись"
+
+#: template-parts/content-featured-post.php:32
+msgid "Featured"
+msgstr "Избранное"
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: inc/template-tags.php:33 template-parts/content-page.php:27
+msgid "Edit"
+msgstr "Düzediş giriz"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:47
+msgid ", "
+msgstr ", "
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/template-tags.php:15
+msgid "Posted by"
+msgstr "Опубликовал"
+
+#: functions.php:41
+msgid "Social Links Menu"
+msgstr "Меню социальных ссылок"
+
+#: functions.php:96
+msgid "Read More"
+msgstr "Читать далее"
+
+#: functions.php:110
+msgid "Footer"
+msgstr "Подвал"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:183
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Noto Serif, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:189
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: footer.php:44
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
+#: footer.php:46
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s, автор: %2$s."
+
+#: functions.php:40
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: comments.php:46 comments.php:62
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:47 comments.php:63
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "Комментарии запрещены."
+
+#: footer.php:44
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "По этому адресу ничего не найдено. Воспользуйтесь одной из следующих ссылок или поиском."
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "Самые используемые рубрики"
+
+#: comments.php:43 comments.php:59
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:37
+msgid "Add yours"
+msgstr "Добавьте свой"

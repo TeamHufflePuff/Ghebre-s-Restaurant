@@ -1,0 +1,157 @@
+# Translation of Dyad in Portuguese (Brazil)
+# This file is distributed under the same license as the Dyad package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-05 18:42:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Dyad\n"
+
+#: template-parts/content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que não encontramos o que você está procurando. Talvez a ferramenta de pesquisa possa ajudar."
+
+#: template-parts/content-page.php:34 template-parts/content-single.php:41
+#: template-parts/content.php:32
+msgid "Pages:"
+msgstr "Páginas:"
+
+#. translators: %s: Name of current post
+#: template-parts/content.php:25
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar lendo %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para publicar seu primeiro post? <a href=\"%1$s\">Comece aqui</a>."
+
+#: template-parts/content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Não encontramos nada para estes termos de busca. Tente novamente com palavras-chave diferentes."
+
+#: single.php:18
+msgid "Previous Post"
+msgstr "Post anterior"
+
+#: single.php:19
+msgid "Next Post"
+msgstr "Próximo post"
+
+#: template-parts/content-featured-post.php:32
+msgid "Featured"
+msgstr "Destaque"
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr "Nenhum resultado"
+
+#: inc/template-tags.php:33 template-parts/content-page.php:27
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:47
+msgid ", "
+msgstr ", "
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Resultados da busca por: %s"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Ir para conteúdo"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/template-tags.php:15
+msgid "Posted by"
+msgstr "Publicado por"
+
+#: functions.php:41
+msgid "Social Links Menu"
+msgstr "Menu de links sociais"
+
+#: functions.php:96
+msgid "Read More"
+msgstr "Leia mais"
+
+#: functions.php:110
+msgid "Footer"
+msgstr "Rodapé"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:183
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "ativa"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Noto Serif, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:189
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "ativa"
+
+#: footer.php:44
+msgid "Proudly powered by %s"
+msgstr "Mantido com %s"
+
+#: footer.php:46
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s "
+
+#: functions.php:40
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+#: comments.php:46 comments.php:62
+msgid "Older Comments"
+msgstr "Comentários mais antigos"
+
+#: comments.php:47 comments.php:63
+msgid "Newer Comments"
+msgstr "Comentários mais recentes"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "Os comentários estão encerrados."
+
+#: footer.php:44
+msgid "http://wordpress.org/"
+msgstr "http://br.wordpress.org/"
+
+#: 404.php:15
+msgid "Oops! That page can't be found."
+msgstr "Oops! Essa página não foi encontrada."
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que nada foi encontrado neste lugar. Quem sabe você possa tentar um dos links abaixo ou uma busca?"
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "Categorias mais Usadas"
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 comentário"
+msgstr[1] "%1$s comentários"
+
+#: comments.php:37
+msgid "Add yours"
+msgstr "Adicione o seu"
+
+#: comments.php:43 comments.php:59
+msgid "Comment navigation"
+msgstr "Navegação dos comentários"
