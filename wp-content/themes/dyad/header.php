@@ -37,6 +37,22 @@
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 		</div><!-- .site-branding -->
 
+<!---------     Search Bar Form     -------------->
+     
+
+        <aside id="search-3" class="widget widget_search">
+        <form role="search" method="get" class="search-form" action="http://localhost/hufflepuff-wordpress/">
+            <label>
+				<span class="screen-reader-text">Search for:</span>
+				<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+            </label>
+        <input type="submit" class="search-submit" value="Search" />
+        </form>
+        </aside>
+		
+
+<!---------------------------------------------------->
+        
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'dyad' ); ?></button>
 			<?php wp_nav_menu( array(
@@ -58,3 +74,4 @@
 		<?php endif; ?>
 
 		<div id="content" class="site-content">
+        

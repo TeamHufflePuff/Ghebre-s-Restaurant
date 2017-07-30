@@ -865,7 +865,8 @@ footer.comment-footer:after,
 --------------------------------------------------------------*/
 
 .site-header {
-	background-color: rgba(36,38,41,0.8);
+	/* background-color: rgba(36,38,41,0.8); */
+    background-color: rgba(252, 213, 129, 0.8); /* #fcd581 - dark yellow */
 	color: #fff;
 	display: table;
 	left: 0;
@@ -897,7 +898,8 @@ footer.comment-footer:after,
 	display: table-cell;
 	margin: 0;
 	vertical-align: middle;
-	width: 30%;
+	/* width: 30%; */
+    width: 25%;
 }
 
 .site-title {
@@ -907,6 +909,11 @@ footer.comment-footer:after,
 	margin: 0;
 	position: relative;
 	vertical-align: middle;
+    text-shadow:
+                   -1px -1px 0 #888,
+                    1px -1px 0 #888,
+                    -1px 1px 0 #888,
+                     1px 1px 0 #888;
 }
 
 .site-title,
@@ -952,7 +959,8 @@ footer.comment-footer:after,
 	font-size: 1.4rem;
 	text-align: right;
 	vertical-align: middle;
-	width: 70%;
+	/* width: 70%; */
+    width: 55%;
 }
 
 #site-navigation a {
@@ -985,6 +993,8 @@ footer.comment-footer:after,
 	margin-left: 1.5em;
 	padding: 6px 0 10px;
 	text-transform: uppercase;
+    text-shadow: 1px 1px #424c55;
+    font-weight: bolder;
 }
 
 #site-navigation ul ul {
@@ -3170,14 +3180,17 @@ object {
 
 .widget_search input {
 	color: #858d95;
+    
 }
 
 .widget_search ::-webkit-input-placeholder {
    color: #616a74;
+    
 }
 
 .widget_search :-moz-placeholder { /* Firefox 18- */
    color: #616a74;
+    
 }
 
 .widget_search ::-moz-placeholder {  /* Firefox 19+ */

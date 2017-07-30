@@ -8,8 +8,10 @@
  */
 
 ?>
+<html>
+<body>
 
-		</div><!-- #content -->
+		<div>
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php if ( is_active_sidebar( 'sidebar-1' ) ) { ?>
@@ -40,17 +42,19 @@
 				}
 				?>
 
-				<div class="site-info">
-					<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'dyad' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'dyad' ), 'WordPress' ); ?></a>
-					<span class="sep"> | </span>
-					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'dyad' ), 'Dyad', '<a href="http://wordpress.com/themes/dyad/" rel="designer">WordPress.com</a>' ); ?>
-				</div><!-- .site-info -->
+				
+                        Follow us on social media:
+                        <a href="https://www.facebook.com/GhebreRestaurant/" target="_blank"><img src="facebook.png" alt="facebook icon" /></a>
+                        <a href="https://www.yelp.com/biz/ghebres-saint-paul" target="_blank"><img src="yelp.png" alt="yelp icon" /></a>
+					
+			
+                
 			</div><!-- .footer-bottom-info -->
 
 		</footer><!-- #colophon -->
 
-	</div><!-- .site-inner -->
-</div><!-- #page -->
+	</div><!-- #content -->
+
 
 <?php wp_footer(); ?>
 
