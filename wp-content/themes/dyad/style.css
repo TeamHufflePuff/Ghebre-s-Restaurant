@@ -866,7 +866,7 @@ footer.comment-footer:after,
 
 .site-header {
 	/* background-color: rgba(36,38,41,0.8); */
-    background-color: rgba(252, 213, 129, 0.8); /* #fcd581 - dark yellow */
+    background-color: #fcd581; /* #fcd581 - dark yellow */
 	color: #fff;
 	display: table;
 	left: 0;
@@ -882,7 +882,7 @@ footer.comment-footer:after,
 
 .home .site-header,
 .blog .site-header {
-	background-color: rgba(36,38,41,0.4);
+	background-color: #fcd581;
 }
 
 .admin-bar .site-header,
@@ -3895,7 +3895,7 @@ object {
 	.is-scrolled .site-header,
 	.blog .site-header,
 	.home .site-header {
-		background-color: #292c2f;
+		background-color: #fcd581;  /* Originally #292c2f MD 8/1/2017 */
 	}
 
 	.site-branding {
