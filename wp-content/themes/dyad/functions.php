@@ -225,6 +225,9 @@ add_action( 'after_setup_theme', 'dyad_editor_styles' );
  */
 function dyad_scripts() {
 
+    //Mike's Custom Functions
+    wp_enqueue_script('aboutUs', get_template_directory_uri() . '/js/aboutUs.js', array('jquery') );
+
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.2' );
 
 	wp_enqueue_style( 'dyad-fonts', dyad_fonts_url(), array(), null );
@@ -280,3 +283,10 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load plugin enhancement file to display admin notices.
  */
 require get_template_directory() . '/inc/plugin-enhancements.php';
+
+/* Add jQuery to the theme
+Chris Coyier https://css-tricks.com/snippets/wordpress/include-jquery-in-wordpress-theme/
+*/
+if(!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
+function my_jquery_enqueue() {
+    wp_enqueue_script('jquery');}
