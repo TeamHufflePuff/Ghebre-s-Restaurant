@@ -39,7 +39,7 @@
 
 <!---------     Search Bar Form     -------------->
      
-
+<!--
         <aside id="search-3" class="widget widget_search">
         <form role="search" method="get" class="search-form" action="http://localhost/hufflepuff-wordpress/">
             <label>
@@ -48,7 +48,7 @@
             </label>
         <input type="submit" class="search-submit" value="Search" />
         </form>
-        </aside>
+        </aside>-->
 		
 
 <!---------------------------------------------------->
