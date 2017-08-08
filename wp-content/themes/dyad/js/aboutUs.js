@@ -6,6 +6,7 @@
 
 jQuery(document).ready(function ($) {
     //alert("jQuery is active!");
+    $(".text").hide();
 
     $(".btn-slide").click(function(){
         console.log($(this).parent().parent().children("#panel"));
